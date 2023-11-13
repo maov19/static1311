@@ -8,8 +8,8 @@
 	>
 
 <channel>
-	<title>US Malaya</title>
-	<atom:link href="https://https://maov19.github.io/static1311/feed/" rel="self" type="application/rss+xml" />
+	<title>martin &#8211; US Malaya</title>
+	<atom:link href="https://https://maov19.github.io/static1311/author/martin/feed/" rel="self" type="application/rss+xml" />
 	<link>https://https://maov19.github.io/static1311/</link>
 	<description>US at your doorstep</description>
 	<lastBuildDate>Sat, 02 Sep 2023 16:35:28 +0000</lastBuildDate>
@@ -22,7 +22,7 @@
 
 <image>
 	<url>https://https://maov19.github.io/static1311/wp-content/uploads/2023/10/cropped-logo-no-image-removebg-32x32.png</url>
-	<title>US Malaya</title>
+	<title>martin &#8211; US Malaya</title>
 	<link>https://https://maov19.github.io/static1311/</link>
 	<width>32</width>
 	<height>32</height>
