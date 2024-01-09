@@ -4337,13 +4337,12 @@
 
 		.elementor-1320 .elementor-element.elementor-element-b55c622 {
 			--display: grid;
-			--e-con-grid-template-columns: repeat(2, 1fr);
+			--e-con-grid-template-columns: repeat(1, 1fr);
 			--e-con-grid-template-rows: repeat(1, 1fr);
 			--gap: 0px 0px;
-			--grid-auto-flow: row;
 			--justify-items: center;
-			--align-items: end;
-			--background-transition: 0.3s;
+			--align-items: center --background-transition: 0.3s;
+
 		}
 
 		.elementor-1320 .elementor-element.elementor-element-7755172 .gallery-item {
@@ -5774,9 +5773,9 @@
 			}
 
 			.elementor-1320 .elementor-element.elementor-element-b55c622 {
-				--e-con-grid-template-columns: repeat(2, 1fr);
+				--e-con-grid-template-columns: repeat(1, 1fr);
 				--e-con-grid-template-rows: repeat(1, 1fr);
-				--gap: 1rem 1rem;
+				--gap: 0;
 			}
 
 			.elementor-1320 .elementor-element.elementor-element-7755172 {
@@ -6599,7 +6598,8 @@ flexibility(document.documentElement);
 												data-widget_type="heading.default">
 												<div class="elementor-widget-container">
 													<h1 class="elementor-heading-title elementor-size-default">We are
-														<br>US Malaya</h1>
+														<br>US Malaya
+													</h1>
 												</div>
 											</div>
 											<div class="elementor-element elementor-element-8e5e706 elementor-widget elementor-widget-text-editor"
@@ -6677,7 +6677,8 @@ flexibility(document.documentElement);
 												data-widget_type="heading.default">
 												<div class="elementor-widget-container">
 													<h1 class="elementor-heading-title elementor-size-default">We are
-														<br>US Malaya</h1>
+														<br>US Malaya
+													</h1>
 												</div>
 											</div>
 											<div class="elementor-element elementor-element-23e2daf elementor-widget elementor-widget-text-editor"
@@ -6895,7 +6896,7 @@ flexibility(document.documentElement);
 																							href="https://demosites.royal-elementor-addons.com/digital-marketing-agency-v2/digital-consultant/">Sign
 																							Up</a></h3>
 																					<p class="elementor-image-box-description"
-																						style="font-size:1rem; text-align:center; line-height: 1.1rem;">
+																						style="color: navy; font-size:1rem; text-align:center; line-height: 1.1rem;">
 																						Create your US Malaysia account
 																						for free and you will get an
 																						address in USA, instantly!</p>
@@ -6931,7 +6932,7 @@ flexibility(document.documentElement);
 																							href="https://demosites.royal-elementor-addons.com/digital-marketing-agency-v2/digital-consultant/">Shop</a>
 																					</h3>
 																					<p class="elementor-image-box-description"
-																						style="font-size:0.9rem; text-align:center; line-height: 1.1rem;">
+																						style="color: navy; font-size:0.9rem; text-align:center; line-height: 1.1rem;">
 																						Shop on any USA online store and
 																						use the address we gave you as
 																						your SHIPPING address.</p>
@@ -6970,12 +6971,12 @@ flexibility(document.documentElement);
 																							href="https://demosites.royal-elementor-addons.com/digital-marketing-agency-v2/digital-consultant/">Send
 																							receipt</a></h3>
 																					<p class="elementor-image-box-description"
-																						style="font-size:0.9rem; text-align:center; line-height: 1.2rem;">
+																						style="color: navy; font-size:0.9rem; text-align:center; line-height: 1.2rem;">
 																						Screenshot your payment receipt
 																						and upload it on US MALAYA
-																						website using your account. You
-																						will receive an email of your
-																						shipping payment.</p>
+																						website using your account.
+																						Click Payments -> Add Payment ->
+																						Upload Receipt.</p>
 																				</div>
 																			</div>
 																		</div>
@@ -7022,13 +7023,25 @@ flexibility(document.documentElement);
 															<div class="elementor-widget-container">
 																<style>
 																	/*! elementor - v3.15.0 - 20-08-2023 */
+																	.elementor-image-gallery {
+																		display: flex;
+																		flex-direction: column;
+																		align-items: center;
+																		justify-content: center;
+																	}
+
+																	#gallery-1 {
+																		display: grid;
+																		grid-template-columns: repeat(4, 1fr);
+																		align-items: center;
+																	}
+
 																	.elementor-image-gallery .gallery-item {
 																		display: inline-block;
 																		text-align: center;
-																		vertical-align: top;
+																		vertical-align: center;
 																		width: 100%;
 																		max-width: 100%;
-																		margin: 0 auto
 																	}
 
 																	.elementor-image-gallery .gallery-item img {
@@ -7065,7 +7078,8 @@ flexibility(document.documentElement);
 																		}
 
 																		.elementor-image-gallery .gallery-columns-5 .gallery-item {
-																			max-width: 20%
+																			max-width: 20%;
+																			
 																		}
 
 																		.elementor-image-gallery .gallery-columns-6 .gallery-item {
@@ -7120,8 +7134,7 @@ flexibility(document.documentElement);
 																	}
 																</style>
 																<div class="elementor-image-gallery">
-																	<div id="gallery-1"
-																		class="gallery galleryid-1320 gallery-columns-2 gallery-size-thumbnail">
+																	<div id="gallery-1">
 																		<figure class="gallery-item">
 																			<div class="gallery-icon landscape">
 																				<a href="https://armani.com"
@@ -7192,7 +7205,7 @@ flexibility(document.documentElement);
 																		</figure>
 																		<figure class="gallery-item">
 																			<div class="gallery-icon landscape">
-																				<a href="https://footlocker.com"
+																				<a href="https://www.footlocker.my/"
 																					target="_blank">
 																					<img width="150" height="91"
 																						src="https://maov19.github.io/static1311/wp-content/uploads/2023/10/foot-locker-logo-2.svg"
@@ -7239,18 +7252,6 @@ flexibility(document.documentElement);
 																				</a>
 																			</div>
 																		</figure>
-																	</div>
-																</div>
-															</div>
-														</div>
-														<div class="elementor-element elementor-element-4f85ee3 elementor-widget__width-initial gallery-spacing-custom elementor-widget-mobile__width-initial elementor-invisible elementor-widget elementor-widget-image-gallery"
-															data-id="4f85ee3" data-element_type="widget"
-															data-settings="{&quot;_animation&quot;:&quot;slideInUp&quot;}"
-															data-widget_type="image-gallery.default">
-															<div class="elementor-widget-container">
-																<div class="elementor-image-gallery">
-																	<div id="gallery-2"
-																		class="gallery galleryid-1320 gallery-columns-2 gallery-size-thumbnail">
 																		<figure class="gallery-item">
 																			<div class="gallery-icon landscape">
 																				<a href="https://www.guess.com"
@@ -7289,7 +7290,165 @@ flexibility(document.documentElement);
 																		</figure>
 																		<figure class="gallery-item">
 																			<div class="gallery-icon landscape">
-																				<a href="https://www..com"
+																				<a href="https://www.tommy.com"
+																					target="_blank">
+																					<img width="150" height="150"
+																						src="https://maov19.github.io/static1311/wp-content/uploads/2023/10/tommy-hilfiger-3.svg"
+																						class="attachment-thumbnail size-thumbnail"
+																						alt="" decoding="async"
+																						loading="lazy">
+																				</a>
+																			</div>
+																		</figure>
+																		<figure class="gallery-item">
+																			<div class="gallery-icon landscape">
+																				<a href="https://www.pandora.net"
+																					target="_blank">
+																					<img width="150" height="30"
+																						src="https://maov19.github.io/static1311/wp-content/uploads/2023/10/pandora-logo.svg"
+																						class="attachment-thumbnail size-thumbnail"
+																						alt="" decoding="async"
+																						loading="lazy">
+																				</a>
+																			</div>
+																		</figure>
+																		<figure class="gallery-item">
+																			<div class="gallery-icon landscape">
+																				<a href="https://www.abercrombie.com"
+																					target="_blank">
+																					<img width="150" height="125"
+																						src="https://maov19.github.io/static1311/wp-content/uploads/2023/10/abercrombie-and-fitch.svg"
+																						class="attachment-thumbnail size-thumbnail"
+																						alt="" decoding="async"
+																						loading="lazy">
+																				</a>
+																			</div>
+																		</figure>
+																		<figure class="gallery-item">
+																			<div class="gallery-icon landscape">
+																				<a href="https://www.dolcegabanna.com"
+																					target="_blank">
+																					<img width="150" height="17"
+																						src="https://maov19.github.io/static1311/wp-content/uploads/2023/10/dolce-and-gabbana.svg"
+																						class="attachment-thumbnail size-thumbnail"
+																						alt="" decoding="async"
+																						loading="lazy">
+																				</a>
+																			</div>
+																		</figure>
+																		<figure class="gallery-item">
+																			<div class="gallery-icon landscape">
+																				<a href="https://www.gap.com"
+																					target="_blank">
+																					<img width="150" height="150"
+																						src="https://maov19.github.io/static1311/wp-content/uploads/2023/10/gap.svg"
+																						class="attachment-thumbnail size-thumbnail"
+																						alt="" decoding="async"
+																						loading="lazy">
+																				</a>
+																			</div>
+																		</figure>
+																		<figure class="gallery-item">
+																			<div class="gallery-icon landscape">
+																				<a href="https://www.calvinklein.com"
+																					target="_blank">
+																					<img width="150" height="150"
+																						src="https://maov19.github.io/static1311/wp-content/uploads/2023/10/calvin-klein-1.svg"
+																						class="attachment-thumbnail size-thumbnail"
+																						alt="" decoding="async"
+																						loading="lazy">
+																				</a>
+																			</div>
+																		</figure>
+																		<figure class="gallery-item">
+																			<div class="gallery-icon portrait">
+																				<a href="https://www.target.com"
+																					target="_blank">
+																					<img width="118" height="150"
+																						src="https://maov19.github.io/static1311/wp-content/uploads/2023/10/target.svg"
+																						class="attachment-thumbnail size-thumbnail"
+																						alt="" decoding="async"
+																						loading="lazy">
+																				</a>
+																			</div>
+																		</figure>
+																		<figure class="gallery-item">
+																			<div class="gallery-icon portrait">
+																				<a href="https://www.amazon.com"
+																					target="_blank">
+																					<img width="118" height="150"
+																						src="wp-content/uploads/2023/10/amazon.svg"
+																						alt="Amazon Logo"
+																						class="attachment-thumbnail size-thumbnail"
+																						alt="" decoding="async"
+																						loading="lazy">
+																				</a>
+																			</div>
+																		</figure>
+																		<figure class="gallery-item">
+																			<div class="gallery-icon portrait">
+																				<a href="https://www.ebay.com"
+																					target="_blank">
+																					<img width="118" height="150"
+																						src="wp-content/uploads/2023/10/ebay.svg"
+																						alt="Amazon Logo"
+																						class="attachment-thumbnail size-thumbnail"
+																						alt="" decoding="async"
+																						loading="lazy">
+																				</a>
+																			</div>
+																		</figure>
+																	</div>
+																</div>
+															</div>
+														</div>
+														<!-- <div class="elementor-element elementor-element-4f85ee3 elementor-widget__width-initial gallery-spacing-custom elementor-widget-mobile__width-initial elementor-invisible elementor-widget elementor-widget-image-gallery"
+															data-id="4f85ee3" data-element_type="widget"
+															data-settings="{&quot;_animation&quot;:&quot;slideInUp&quot;}"
+															data-widget_type="image-gallery.default">
+															<div class="elementor-widget-container">
+																<div class="elementor-image-gallery">
+																	<div id="gallery-2"
+																		class="gallery galleryid-1320 gallery-columns-3 gallery-size-thumbnail">
+																		<figure class="gallery-item">
+																			<div class="gallery-icon landscape">
+																				<a href="https://www.guess.com"
+																					target="_blank">
+																					<img width="150" height="150"
+																						src="https://maov19.github.io/static1311/wp-content/uploads/2023/10/guess-jeans-1.svg"
+																						class="attachment-thumbnail size-thumbnail"
+																						alt="" decoding="async"
+																						loading="lazy">
+																				</a>
+																			</div>
+																		</figure>
+																		<figure class="gallery-item">
+																			<div class="gallery-icon landscape">
+																				<a href="https://www.diesel.com"
+																					target="_blank">
+																					<img width="150" height="51"
+																						src="https://maov19.github.io/static1311/wp-content/uploads/2023/10/diesel-jeans.svg"
+																						class="attachment-thumbnail size-thumbnail"
+																						alt="" decoding="async"
+																						loading="lazy">
+																				</a>
+																			</div>
+																		</figure>
+																		<figure class="gallery-item">
+																			<div class="gallery-icon landscape">
+																				<a href="https://www.dockers.com"
+																					target="_blank">
+																					<img width="150" height="150"
+																						src="https://maov19.github.io/static1311/wp-content/uploads/2023/10/dockers-3.svg"
+																						class="attachment-thumbnail size-thumbnail"
+																						alt="" decoding="async"
+																						loading="lazy">
+																				</a>
+																			</div>
+																		</figure>
+																		<figure class="gallery-item">
+																			<div class="gallery-icon landscape">
+																				<a href="https://www.tommy.com"
 																					target="_blank">
 																					<img width="150" height="150"
 																						src="https://maov19.github.io/static1311/wp-content/uploads/2023/10/tommy-hilfiger-3.svg"
@@ -7374,7 +7533,7 @@ flexibility(document.documentElement);
 																	</div>
 																</div>
 															</div>
-														</div>
+														</div> -->
 													</div>
 												</div>
 											</div>
@@ -7853,17 +8012,20 @@ flexibility(document.documentElement);
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-100">
 																		<a href="#about-us"
 																			class="wpr-menu-item wpr-pointer-item menu-link">About
-																			us</a></li>
+																			us</a>
+																	</li>
 																	<li
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-101">
 																		<a href="#how-to"
 																			class="wpr-menu-item wpr-pointer-item menu-link">How
-																			to?</a></li>
+																			to?</a>
+																	</li>
 																	<li
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-99">
 																		<a href="#our-location"
 																			class="wpr-menu-item wpr-pointer-item menu-link">Our
-																			location</a></li>
+																			location</a>
+																	</li>
 																	<li
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-99">
 																		<a href="https://login.usmalaya.com/prices"
@@ -7873,7 +8035,8 @@ flexibility(document.documentElement);
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102">
 																		<a href="#signup"
 																			class="wpr-menu-item wpr-pointer-item menu-link">Sign
-																			up</a></li>
+																			up</a>
+																	</li>
 																</ul>
 															</nav>
 															<nav class="wpr-mobile-nav-menu-container">
@@ -7896,17 +8059,20 @@ flexibility(document.documentElement);
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-100">
 																		<a href="#about-us"
 																			class="wpr-mobile-menu-item menu-link">About
-																			us</a></li>
+																			us</a>
+																	</li>
 																	<li
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-101">
 																		<a href="#how-to"
 																			class="wpr-mobile-menu-item menu-link">How
-																			to?</a></li>
+																			to?</a>
+																	</li>
 																	<li
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-99">
 																		<a href="#our-location"
 																			class="wpr-mobile-menu-item menu-link">Our
-																			location</a></li>
+																			location</a>
+																	</li>
 																	<li
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-99">
 																		<a href="https://login.usmalaya.com/prices"
@@ -7916,7 +8082,8 @@ flexibility(document.documentElement);
 																		class="menu-item menu-item-type-custom menu-item-object-custom menu-item-102">
 																		<a href="#signup"
 																			class="wpr-mobile-menu-item menu-link">Sign
-																			up</a></li>
+																			up</a>
+																	</li>
 																</ul>
 															</nav>
 														</div>
@@ -8227,7 +8394,8 @@ flexibility(document.documentElement);
 															<div class="elementor-social-icons-wrapper elementor-grid">
 																<span class="elementor-grid-item">
 																	<a class="elementor-icon elementor-social-icon elementor-social-icon-facebook-f elementor-animation-grow elementor-repeater-item-2f307f6"
-																		target="_blank">
+																		target="_blank"
+																		href="https://www.facebook.com/profile.php?id=61552725590137&mibextid=rS40aB7S9Ucbxw6v">
 																		<span
 																			class="elementor-screen-only">Facebook-f</span>
 																		<svg class="e-font-icon-svg e-fab-facebook-f"
@@ -8266,7 +8434,8 @@ flexibility(document.documentElement);
 																</span>
 																<span class="elementor-grid-item">
 																	<a class="elementor-icon elementor-social-icon elementor-social-icon-instagram elementor-animation-grow elementor-repeater-item-b2c3f2e"
-																		target="_blank">
+																		target="_blank"
+																		href="https://www.instagram.com/usmalaya23?igsh=ODA1NTc5OTg5Nw==">
 																		<span
 																			class="elementor-screen-only">Instagram</span>
 																		<svg class="e-font-icon-svg e-fab-instagram"
